@@ -16,6 +16,9 @@ const mockUpStrand = () => {
 function pAequorFactory (number, arraybases){
   return{
     specimenNum: number,
-    dna: arraybases
+    dna: arraybases,
+    mutate(){
+
+}
   }
 }
