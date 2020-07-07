@@ -13,10 +13,9 @@ const mockUpStrand = () => {
   return newStrand;
 };
 
-
-
-
-
-
-
-
+function pAequorFactory (number, arraybases){
+  return{
+    specimenNum: number,
+    dna: arraybases
+  }
+}
